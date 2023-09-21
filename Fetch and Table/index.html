@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capsule Data Filter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+    <form id="filter-form">
+      
+        <select id="status" name="status">
+            <option value="Select Status">Select Status</option>
+            <option value="Active">Active</option>
+            <option value="Retired">Retired</option>
+            <option value="Unknown">Unknown</option>
+            <option value="Destroyed">Destroyed</option>
+        </select>
+        <button type="button" id="load-button">Load</button>
+    </form>
+    <table id="result-table">
+        <h1 id="title">Showing For <span id="selectStatus">Active</span></h1>
+        <thead>
+            <tr>
+                <th>Capsule ID</th>
+                <th>No of missions</th>
+                <th>Details</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Results will be displayed here -->
+        </tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>

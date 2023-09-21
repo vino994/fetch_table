@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+form {
+    width: 300px;
+    height: 80px;
+}
+form select{
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+button{
+    padding: 10px 25px;
+    margin-left: 20px;
+    background-color:#0057D8;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+#title{
+    margin-bottom: 20px;
+}
+thead{
+    height: 70px;
+    background-color: #DAE8FC;
+}
+thead th{
+    width: 300px;
+}
